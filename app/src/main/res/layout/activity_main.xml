@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:text="CIUDAD DE MEXICO "
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:text="28°C"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:layout_width="346dp"
+        android:layout_height="355dp"
+        android:layout_margin="10dp"
+        android:background="@mipmap/imagen_01d" />
+
+</LinearLayout>
